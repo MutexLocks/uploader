@@ -1,6 +1,6 @@
-package org.g.uploader;
+package com.g.uploader;
 
-import org.g.uploader.model.AccountDTO;
+import com.g.uploader.model.AccountDTO;
 import org.openqa.selenium.WebDriver;
 
 public interface ArticleUploader{

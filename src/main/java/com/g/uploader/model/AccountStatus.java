@@ -1,4 +1,4 @@
-package org.g.uploader.model;
+package com.g.uploader.model;
 
 import lombok.Getter;
 import org.apache.commons.lang3.StringUtils;
