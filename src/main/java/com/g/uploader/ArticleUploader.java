@@ -97,6 +97,19 @@ public interface ArticleUploader {
      */
     default void optimizeArticle(WebDriver driver) {}
 
+
+    /**
+     * 设置额外的上传配置（可选实现）。
+     * <p>
+     * 某些平台可能支持额外的上传设置，例如是否原创、隐私设置、分区选择等。
+     * 可以通过该方法传入 JSON 或自定义字符串格式配置。
+     * </p>
+     *
+     * @param config  配置内容（格式可自定义）
+     * @param driver  Selenium WebDriver 实例
+     */
+    default void extraConfig(String config, WebDriver driver) {}
+
     /**
      * 提交发布文章。
      * <p>
